@@ -7,7 +7,7 @@
     margin-top: 25px;
     margin-bottom: 275px;
     justify-content: center;
-    padding-left: 20%;
+    padding-left: 25%;
 }
 
 .growIndex:hover {
@@ -53,4 +53,8 @@ body {
 
 .logo{
     width: 100%;
+}
+
+.middle{
+    align-items: center;
 }
