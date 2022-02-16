@@ -6,6 +6,7 @@
     height: 100px;
     margin-left: 450px;
     margin-top: 25px;
+    margin-bottom: 275px;
 }
 
 .growIndex:hover {
@@ -47,4 +48,8 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     cursor: pointer;
     text-align: center;
+}
+
+.logo{
+    width: 100%;
 }
