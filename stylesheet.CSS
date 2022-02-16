@@ -3,9 +3,7 @@
 
     float: left;
     height: 100px;
-    margin-top: 25px;
-    margin-bottom: 275px;
-    padding-left: 20%;
+    margin: auto;
 }
 
 .growIndex:hover {
