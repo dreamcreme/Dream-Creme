@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="./stylesheet.CSS">
+    <link rel="icon" href="Images/Cakes/Icon.png" type="image/icon type">
+    <title>Contact Us</title>
+</head>
+
+<body>
+    <div class="contact">
+        <center>
+            <img src="Images/Logos/ContactUs.png">
+        </center>
+        <br>
+        Contact us:
+        <br>
+        <br>
+        <form action="mailto:dreamcremedesserts2022@gmail.com" method="post" enctype="text/plain">
+            Name: <input type="text" id="name" name="name" required>
+            <br>
+            <br>
+            Email: <input type="email" id="mail" name="mail" required>
+            <br>
+            <br>
+
+            <label for="category">Category:</label>
+
+            <select name="category" id="category">
+                <option value="order">Order Issue</option>
+                <option value="complain">File A Complaint</option>
+                <option value="Suggestion">Suggestion</option>
+                <option value="others">Others</option>
+            </select>
+            <br>
+            <br>
+
+            Message:
+            <br>
+            <textarea name="message" rows="10" cols="30"></textarea>
+            <br>
+            <br>
+
+            <input type="submit" value="Submit">
+    </div>
+    </form>
+</body>
+
+</html>
