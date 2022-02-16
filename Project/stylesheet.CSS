@@ -1,0 +1,50 @@
+.growIndex {
+    transition: all .2s ease-in-out;
+
+    width: 100px;
+    float: left;
+    height: 100px;
+    margin-left: 450px;
+    margin-top: 25px;
+}
+
+.growIndex:hover {
+    transform: scale(1.1);
+}
+
+.grow {
+    transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+    transform: scale(1.1);
+}
+
+body {
+    background-image: url("./Images/Background/Background.png");
+    background-size: cover;
+    color: white;
+    font-size: x-large;
+    text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+}
+
+.contact {
+    font-size: large;
+    color: azure;
+}
+
+.submitButt {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #04AA6D;
+    padding: 14px 28px;
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    cursor: pointer;
+    text-align: center;
+}
